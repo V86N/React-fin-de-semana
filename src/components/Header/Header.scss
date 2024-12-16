@@ -1,0 +1,17 @@
+$primaryColor:burlywood;
+
+.header {
+    background-color: $primaryColor;
+    padding: 10px;
+  
+    a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 16px;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
